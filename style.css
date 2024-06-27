@@ -12,7 +12,7 @@ body{
 }
 .z1{
     width: 420px;
-    background: transparent;
+    background: transparen;
     border: 2px solid rgba(0, 0, 0, 0.267);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.315);
