@@ -11,8 +11,24 @@ body{
     margin: 10% 20% 10% 42%;
     
 }
+
+    @keyframes mymove {
+        0% {box-shadow:0 0 10px 10px blue }
+        10% {box-shadow:0 0 10px 10px red }
+        20% {box-shadow:0 0 10px 10px blue }
+        30% {box-shadow:0 0 10px 10px red }
+        40% {box-shadow:0 0 10px 10px blue }
+        50% {box-shadow:0 0 10px 10px red }
+        60% {box-shadow:0 0 10px 10px blue }
+        70% {box-shadow:0 0 10px 10px red }
+        80% {box-shadow:0 0 10px 10px blue }
+        90% {box-shadow:0 0 10px 10px red }
+        100% {box-shadow:0 0 10px 10px  blue}
+        
+        
+    }
 .z1{
-    
+    animation: mymove 3s infinite;
     width: 420px;
     
     background: transparent;
