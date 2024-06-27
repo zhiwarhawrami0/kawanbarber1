@@ -3,12 +3,13 @@ body{
     justify-content: center;
     align-items: center;
     background: url(1.jpg);
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-    margin: 20% 20% 10% 32%;
+    margin: 30% 20% 10% 40%;
+
     
 }
 
