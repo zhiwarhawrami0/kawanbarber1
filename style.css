@@ -31,6 +31,7 @@ body{
     animation: mymove 3s infinite;
     width: 700px;
     height: 1200px;
+    margin: auto 0;
     
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.267);
@@ -151,7 +152,7 @@ body{
     opacity: 1;
 }
 .kuku{
-    color: white;
+    color: blue;
     font-size: 50px;
     
     
@@ -168,5 +169,5 @@ body{
 }
 .kawan{
     font-size: 60px;
-    color: #000000;
+    color: blue;
 }
