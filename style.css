@@ -3,12 +3,11 @@ body{
     justify-content: center;
     align-items: center;
     background: url(1.jpg);
-    width: 100px;
-    height: 300px;
+    
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-    margin: 30% 20% 10% 40%;
+    
 
     
 }
@@ -30,7 +29,8 @@ body{
     }
 .z1{
     animation: mymove 3s infinite;
-    width: 420px;
+    width: 700px;
+    height: 1200px;
     
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.267);
@@ -96,15 +96,17 @@ body{
 }
 .zhiwar img{
     display: block;
-   width: 250px;
+   width: 500px;
 }
 .zhiwar { 
-     width: 250px;
-    height: 250px;
+     width: 500px;
+    height: 500px;
     overflow:hidden;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
-    margin: 0 15%;
+    margin: 80px 55px;
+   
+    
     
     
 }
@@ -115,20 +117,20 @@ body{
 .icons{
     margin: 0 -5%;
     
-    width: 370px;
+    width: 700px;
     
 }
 .shadow{
     margin-left: auto;
-    margin-right: 115px;
+    margin-right: 135px;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     position: relative;
     cursor: pointer;
 }
 .shadow:hover .zhiwar{
-    transform: translateY(-15px);
+    transform: translateY(-20px);
    
 }
 .shadow::after{
@@ -138,8 +140,8 @@ body{
     
     transform: translateX(28%);
     bottom: -20px;
-    height: 7px;
-    width: 50px;
+    height: 15px;
+    width: 80px;
     filter: blur(3px);
     -webkit-filter: blur(3px);
     opacity: 0;
@@ -150,6 +152,7 @@ body{
 }
 .kuku{
     color: white;
+    font-size: 50px;
     
     
 
@@ -164,5 +167,6 @@ body{
   
 }
 .kawan{
+    font-size: 60px;
     color: #000000;
 }
