@@ -7,7 +7,7 @@ body{
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-    padding: auto;
+    padding-top: 120px;
     
 
     
@@ -170,5 +170,5 @@ body{
 }
 .kawan{
     font-size: 60px;
-    color: white;
+    color: black;
 }
