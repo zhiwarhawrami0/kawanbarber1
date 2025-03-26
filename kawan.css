@@ -1,0 +1,343 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    margin: auto;
+    
+}
+
+
+@keyframes mymove {
+   
+        0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+        10% {box-shadow :0 0 10px 10px white }
+        20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+        30% {box-shadow :0 0 10px 10px white }
+        40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+        50% {box-shadow :0 0 10px 10px white }
+        60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+        70% {box-shadow :0 0 10px 10px white}
+        80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+        90% {box-shadow :0 0 10px 10px white }
+        100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+
+        
+}
+
+
+@keyframes hawrami{
+
+    0% {box-shadow :0 0 10px 10px white }
+    10% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    20% {box-shadow :0 0 10px 10px white }
+    30% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    40% {box-shadow :0 0 10px 10px white }
+    50% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    60% {box-shadow :0 0 10px 10px white }
+    70% {box-shadow :0 0 10px 10px rgb(0, 155, 255)}
+    80% {box-shadow :0 0 10px 10px white }
+    90% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    100% {box-shadow :0 0 10px 10px white }
+   
+
+
+}
+
+
+
+.a3{
+
+    animation: hawrami 3s infinite;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgb(0, 155, 255);
+    font-size: 3px;
+    border: 2px solid white;
+    border-radius: 100%;
+
+}
+
+
+
+#z1{
+    
+   
+    animation: mymove 3s infinite;
+    width: 730px;
+    height: 1245px;
+    background: transparent;
+    border: 4px solid white;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 30px 40px 40px;
+    margin: 200px 170px;
+}
+.z1 h1{
+    backdrop-filter: blur(20px);
+    
+    font-size: 36px;
+    text-align: center;
+    
+}
+.z1 .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    right: 5px;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(162, 0, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px, 5px, 5px, 5px;
+
+}
+.z{
+    border: 2px solid rgb(162, 0, 255);
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-radius: 200px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: black;
+    font-size:initial;
+    
+
+}
+.z1 .input-box ::placeholder{
+    color: #fff;
+}
+.input-box i {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+   
+
+}
+.zhiwar img{
+    display: block;
+   width: 550px;
+}
+
+
+@keyframes zhiwar{
+
+    0% {box-shadow :0 0 10px 10px white }
+    10% {box-shadow :0 0 10px 10px white }
+    20% {box-shadow :0 0 10px 10px white }
+    30% {box-shadow :0 0 10px 10px white }
+    40% {box-shadow :0 0 10px 10px white }
+    50% {box-shadow :0 0 10px 10px white }
+    60% {box-shadow :0 0 10px 10px white }
+    70% {box-shadow :0 0 10px 10px white}
+    80% {box-shadow :0 0 10px 10px white }
+    90% {box-shadow :0 0 10px 10px white }
+    100% {box-shadow :0 0 10px 10px white }
+   
+
+
+}
+
+
+
+.zhiwar { 
+
+    border: 4px solid black;
+    animation: zhiwar 3s infinite;
+    width: 550px;
+    height: 550px;
+    overflow:hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    margin: 0 7%;
+    
+    
+}
+.z3{
+    text-align: center;
+   
+}
+.icons{
+    margin: 0 -5%;
+    
+    width: 725px;
+}
+.shadow{
+    margin-left: auto;
+    margin-right: 130px;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    position: relative;
+    cursor: pointer;
+}
+.shadow:hover .zhiwar{
+    transform: translateY(-15px);
+   
+}
+.shadow::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: -60px;
+    transform: translateX(28%);
+    bottom: -20px;
+    height: 12px;
+    width: 150px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+.shadow:hover::after{
+    opacity: 1;
+}
+
+
+
+@keyframes zhika{
+
+    0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+
+
+}
+
+
+
+.kuku{
+
+    border: 5px rgb(0, 155, 255);
+    border-radius: 40px;
+    background-color: rgb(0, 155, 255);
+    animation: zhika 3s infinite;
+    color: white;
+    font-size: 65px;
+    width: 552px;
+    
+    
+
+    
+}
+
+.z2{
+ 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  
+}
+
+
+
+
+
+.kuku1{
+
+    
+    animation: zhiwar  3s infinite;
+    background-color: white;
+    border-radius: 10px;
+    width: 525px;
+    color: black;
+    font-size: 40px;
+    
+    
+}
+
+
+@keyframes kuku2{
+
+    0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+
+
+}
+
+
+.kuku2{
+
+    animation: kuku2 3s infinite;
+    color: white;
+    background-color: rgb(0, 155, 255);
+    font-size: 50px;
+    
+    width: 378px;
+    border: 4px solid white;
+    border-radius: 100%;
+
+
+
+
+}
+
+
+@keyframes zhiwa{
+
+    0% {box-shadow :0 0 10px 10px white }
+    10% {box-shadow :0 0 10px 10px white }
+    20% {box-shadow :0 0 10px 10px white }
+    30% {box-shadow :0 0 10px 10px white }
+    40% {box-shadow :0 0 10px 10px white }
+    50% {box-shadow :0 0 10px 10px white }
+    60% {box-shadow :0 0 10px 10px white }
+    70% {box-shadow :0 0 10px 10px white}
+    80% {box-shadow :0 0 10px 10px white }
+    90% {box-shadow :0 0 10px 10px white }
+    100% {box-shadow :0 0 10px 10px white }
+   
+
+
+}
+
+
+.zhiwa { 
+
+    border: 5px #fff;
+    border-radius: 40px;
+    background-color:white ;
+    animation: zhiwa 3s infinite;
+    color: black;
+    font-size: 65px;
+    width: 552px;
+    
+    
+}
